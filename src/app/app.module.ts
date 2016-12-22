@@ -3,16 +3,21 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { RoutesModule } from './routes/routes.module';
+
 import { AppComponent } from './app.component';
+import { GraphComponent } from './graph/graph.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GraphComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RoutesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
