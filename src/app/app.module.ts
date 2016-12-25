@@ -7,11 +7,13 @@ import { RoutesModule } from './routes/routes.module';
 
 import { AppComponent } from './app.component';
 import { GraphComponent } from './graph/graph.component';
+import { DeviceStatusComponent } from './device-status/device-status.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GraphComponent
+    GraphComponent,
+    DeviceStatusComponent
   ],
   imports: [
     BrowserModule,
